@@ -5,8 +5,6 @@
 //  Created by xuting on 2021/5/24.
 //
 
-import Foundation
-
 /// 237. 删除链表中的节点
 /// https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
 

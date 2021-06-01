@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0114C84126661D08004256FF /* MiddleNode_876.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0114C84026661D08004256FF /* MiddleNode_876.swift */; };
+		013504DE265F3D960094B972 /* ReverseLinkedList_206.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013504DD265F3D960094B972 /* ReverseLinkedList_206.swift */; };
 		01A5E8FC265BEF7A00E80FA8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5E8FB265BEF7A00E80FA8 /* main.swift */; };
 		01A5E905265BF0D700E80FA8 /* DeleteNode_237.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5E904265BF0D700E80FA8 /* DeleteNode_237.swift */; };
 		01A5E909265BF0F000E80FA8 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01A5E908265BF0F000E80FA8 /* ListNode.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0114C84026661D08004256FF /* MiddleNode_876.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleNode_876.swift; sourceTree = "<group>"; };
+		013504DD265F3D960094B972 /* ReverseLinkedList_206.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReverseLinkedList_206.swift; sourceTree = "<group>"; };
 		01A5E8F8265BEF7A00E80FA8 /* LeetCode_Swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LeetCode_Swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		01A5E8FB265BEF7A00E80FA8 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		01A5E904265BF0D700E80FA8 /* DeleteNode_237.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteNode_237.swift; sourceTree = "<group>"; };
@@ -75,6 +79,8 @@
 				01A5E908265BF0F000E80FA8 /* ListNode.swift */,
 				01A5E904265BF0D700E80FA8 /* DeleteNode_237.swift */,
 				01A5E90B265BF60A00E80FA8 /* HasCycle_141.swift */,
+				013504DD265F3D960094B972 /* ReverseLinkedList_206.swift */,
+				0114C84026661D08004256FF /* MiddleNode_876.swift */,
 			);
 			path = LinkList;
 			sourceTree = "<group>";
@@ -136,6 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0114C84126661D08004256FF /* MiddleNode_876.swift in Sources */,
+				013504DE265F3D960094B972 /* ReverseLinkedList_206.swift in Sources */,
 				01A5E8FC265BEF7A00E80FA8 /* main.swift in Sources */,
 				01A5E905265BF0D700E80FA8 /* DeleteNode_237.swift in Sources */,
 				01A5E90C265BF60A00E80FA8 /* HasCycle_141.swift in Sources */,
@@ -265,6 +273,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -274,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};

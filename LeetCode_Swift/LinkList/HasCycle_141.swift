@@ -7,7 +7,6 @@
 
 // 141. 环形链表
 // https://leetcode-cn.com/problems/linked-list-cycle/
-import Foundation
 
 extension LinkList {
     func hasCycle(_ head: ListNode?) -> Bool {
