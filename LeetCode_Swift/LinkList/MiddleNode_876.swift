@@ -5,7 +5,7 @@
 //  Created by xuting on 2021/6/1.
 //
 // https://leetcode-cn.com/problems/middle-of-the-linked-list/solution/
-// 
+//
 extension LinkList {
     func middleNode(_ head: ListNode?) -> ListNode? {
         var slow = head
